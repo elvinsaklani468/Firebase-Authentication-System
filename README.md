@@ -38,7 +38,6 @@ The authentication system is built using **HTML, CSS, and JavaScript**, followin
 
 ### 🔹 **Technology Stack**  
 - **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Firebase Authentication, Firebase Database, or Node.js (Future Scope)  
 
 ### 📂 **Folder Structure**  
 ```plaintext
@@ -54,9 +53,9 @@ The authentication system is built using **HTML, CSS, and JavaScript**, followin
 
 ---
 
-## 👥 Contributors  
+# 👥 Contributors  
 👨‍💻 **Developers:**<BR>  MOHIT SAKLANI <BR>NIKHIL BUDHWAR  
-
+### Feel free to use the project and make the changes, this is our **1st SEM PROJECT ** everything was new to us and we do our best to make it...
 ---
 
 ## 📌 How to Run the Project?  
