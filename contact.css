@@ -1,0 +1,165 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      
+	  background: url('/18129294.jpg') no-repeat center center fixed;
+    font-size: 14px;
+
+}
+
+.container{
+    width:80% ;
+    margin: 10px auto;
+    position: relative;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px ;
+    background: #1C00B5;
+    color: #fff;
+}
+h1{
+    margin-bottom:20px ;
+    margin-top: 50px;
+}
+.input-row{
+    display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+
+}
+.input-row .input-group{
+
+   flex-basis: 45%;  
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black ;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+lable{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+button
+{
+    background: #1C00B5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow:0px 5px 15px 0px rgba(28, 0, 181,0.3 ) ;
+}
+.contact-left h3{
+    color: #1C00B5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+
+}
+tr td {
+    padding-top: 30px;
+}
+img{
+    width: 30px;
+}
+
+
+
+nav{
+	position: relative;
+	margin: 0px auto 0;
+	/* backdrop-filter: blur(2px); */
+	right: 0;
+	height: 50px;
+	text-align: right;
+	border-radius: 8px;
+	font-size: 0;
+	background: transparent;
+}
+nav a{
+	font-size: 15px;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	text-align: center;
+}
+nav .animation{
+	position: absolute;
+	height: 100%;
+	/* height: 5px; */
+	top: 0;
+	/* bottom: 0; */
+	z-index: 0;
+	background: #4241a9;
+	border-radius: 8px;
+	transition: all .5s ease 0s;
+}
+nav a:nth-child(1){
+	width: 100px;
+}
+nav .start-home, a:nth-child(1):hover~.animation{
+	width: 100px;
+	right: 203px;
+}
+nav a:nth-child(2){
+	width: 110px;
+}
+nav a:nth-child(2):hover~.animation{
+	width: 110px;
+	right: 100px;
+}
+nav a:nth-child(3){
+	width: 100px;
+}
+nav a:nth-child(3):hover~.animation{
+	width: 100px;
+	right: 0px;
+}
