@@ -1,1 +1,7 @@
-i made new file
+cat bu	
+
+
+yes
+q
+clear
+rm
